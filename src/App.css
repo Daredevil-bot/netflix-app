@@ -1,0 +1,115 @@
+*{
+  margin: 0px;
+}
+
+.row_poster:hover{
+  transform: scale(1.20);
+}
+.row_poster{
+  object-fit: contain;
+  width: 100%;
+  max-height: 110px;
+  padding-right: 20px;
+  transition: transform 450ms;
+
+}
+.row_posters{
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+}
+.row_posters::-webkit-scrollbar{
+  display: none;
+
+}
+.row_posterlarge{
+  max-height: 250px;
+}
+.banner{
+  color: white;
+  object-fit: contain;
+  height: 450px;
+  
+  
+}
+.banner_contents{
+  padding-top: 140px;
+  margin-left: 30px;
+  
+  height: 190px;
+}
+.overview{
+  
+  font-size: 0.8rem;
+  line-height: 1.3rem;
+  padding-top: 10px;
+  
+  max-width: 400px;
+}
+.App{
+  background-color:#111;
+}
+.row_title{
+  color: white;
+  padding-left: 15px;
+}
+.banner_title{
+  padding-bottom: 8px;
+  font-weight: 800;
+  font-size: 3rem;
+}
+.btn{
+  border: none;
+  outline: none;
+  color: rgb(224, 231, 231);
+  padding-top: 0.5rem;
+  background-color: rgb(51, 51, 51,0.5);
+  margin-right: 1rem;
+  padding-bottom: 0.5rem;
+  padding-right: 2rem;
+  font-weight: 700;
+  padding-left: 2rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+.banner_fade{
+  height: 7.6rem;
+  background-image: linear-gradient(180deg,
+  transparent,
+  rgba(34, 31, 31, 0.61)
+  ,
+#111
+  );
+}
+.nav{
+  position: fixed;
+  width: 100%;
+  
+
+  top: 0px;
+  height :80px;
+  z-index: 1;
+  justify-content: space-between;
+  transition-timing-function: ease-in;
+  transition:all 0.5s;
+  
+}
+.nav_logo{
+  width: 80px;
+  object-fit: contain;
+  position: fixed;
+  left: 10px;
+}
+.nav_avatar{
+  object-fit: contain;
+  width: 30px;
+  position: fixed;
+  right: 10px;
+  padding-top:20px ;
+  
+}
+.nav_black{
+  background-color: #111;
+  
+}
